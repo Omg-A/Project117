@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Sketch Classification</title>
+  <title>Quick Draw</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -36,7 +36,7 @@
 </div>
 
   <h1>Quick Draw
-  <button id="show_sketch" class="btn btn-info" data-toggle="modal" data-target="#myModal">Show Sketch</button>
+  <button id="show_sketch" class="btn btn-info" data-toggle="modal" data-target="#myModal">Show Sketches</button>
   </h1>
 
   <p id = "UserSketch" class = "bigPTags">The Sketch You Drew:</p>
@@ -44,6 +44,8 @@
   <p id = "Confidence" class = "bigPTags">Confidence:</p>
 
   <p id = "SketchThatHasToBeDrawn" class = "bigPTags">Sketch To Be Drawn: </p>
+
+  <button onclick = "updateCanvas();" class = "btn btn-info">Clear All Drawings</button>
 
 </center> 
 
